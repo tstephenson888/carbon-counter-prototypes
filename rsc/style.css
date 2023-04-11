@@ -203,6 +203,44 @@ grid-area: change;
 
 /* Contact Page */
 
+#contactPage h2 {
+    color: white;
+    background-color: var(--georgianBlue);
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+#contactPage label {
+    font-weight: bold;
+}
+#contactPage form {
+    display:flex;
+    flex-direction: column;
+    margin: 0 10%;
+}
+
+#contactPage textarea
+
+#contactPage button {
+    color: white;
+        font-weight: bold;
+        border: 0;
+        border-radius: 1rem;
+        padding: 0.25rem;
+        text-decoration: none;
+        margin: 0.25rem;
+}
+
+#contactPage button.submit {
+    background-color: var(--georgianGreen);
+}
+
+#contactPage button.reset {
+    background-color: var(--georgianBlue);
+}
+
 
 /* Footer */
 footer {
