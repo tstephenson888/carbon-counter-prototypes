@@ -221,16 +221,23 @@ grid-area: change;
     margin: 0 10%;
 }
 
-#contactPage textarea
+#contactPage textarea {
+    margin: 0.5rem 0;
+}
+#contactPage #buttons {
+
+}
 
 #contactPage button {
     color: white;
         font-weight: bold;
+        text-decoration: none;
         border: 0;
         border-radius: 1rem;
         padding: 0.25rem;
-        text-decoration: none;
-        margin: 0.25rem;
+        margin: 0.25rem 0.5rem 0.5rem 0.5rem;
+        width: 100px;
+
 }
 
 #contactPage button.submit {
@@ -249,15 +256,17 @@ footer {
     background-color: var(--georgianBlue);
 }
 
-footer div.text-center {
-    color: white;
-    margin: 0.5rem
-}
-
 footer div.badge{
     list-style-position: outside;
     background-color: var(--georgianTeal);
     font-weight: bold;
     color: white;
     margin: 0.5rem;
+    font-size: 1rem !important;
+    height: 1.75rem !important;
+}
+
+footer div.text-center {
+    color: white;
+    margin: 0.5rem
 }
