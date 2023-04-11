@@ -225,7 +225,9 @@ grid-area: change;
     margin: 0.5rem 0;
 }
 #contactPage #buttons {
-
+    display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 #contactPage button {
