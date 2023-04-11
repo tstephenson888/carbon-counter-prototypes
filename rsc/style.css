@@ -25,6 +25,8 @@ header nav {
     display: inline-block;
     vertical-align: middle;
 }
+
+
 header nav a{
     background-color: var(--georgianGreen);
     color: white;
