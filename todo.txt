@@ -1,0 +1,4 @@
+Final Web Project due April 17th
+We need to finish UI and design stuff. Nicole, you up for this?
+I still need to make a contact form, and resources/further reading.
+WordPress should support blog view, so I'll just focus on the above two items.
