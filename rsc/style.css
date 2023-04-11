@@ -1,0 +1,178 @@
+/* CSS variables */
+:root {
+    --georgianGreen: #51830E;
+    --georgianBlue: #004b87;
+    --georgianTeal: #77c5d5;
+}
+/* Whole site */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Header */
+header {
+    display: inline;
+    flex-direction: row;
+    background-color: white;
+}
+
+header img.logo {
+    width: 10rem;
+
+
+}
+
+header nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+header nav a{
+    background-color: var(--georgianGreen);
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+main.grid-container {
+    display: grid;
+    grid-template-rows: 100px / auto auto auto;
+    grid-template-areas: "welcome map map data"
+    "change map map data"
+    "change initiatives stories resources"
+    "change initiatives stories resources";
+    gap: 1rem;
+    margin: 1rem;
+}
+/* INDEX.HTML */
+/* Welcome panel */
+#welcome {
+    background-color: var(--georgianGreen);
+    color:white;
+    padding: 24px;
+    grid-area: welcome;
+}
+#welcome * {
+    text-align: center;
+}
+#welcome>h3 {
+    text-transform: uppercase;
+}
+/* "Start making a change" list */
+#change {
+grid-area: change;
+}
+#change>ul>li {
+    color: var(--georgianBlue);
+    font-weight: normal;
+    background-color: white;
+    list-style: none;
+}
+
+.changeNum {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    background-color: var(--georgianGreen);
+    padding: 1rem;
+}
+
+/* Index: Small portal buttons with text on them */
+.portal-button {
+    background-color: var(--georgianBlue);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: table-cell !important;
+    border: 0;
+}
+
+#map {
+    grid-area: map;
+}
+
+#data {
+    grid-area: data;
+}
+
+#initiatives {
+    grid-area: initiatives;
+}
+
+#stories {
+    grid-area: stories;
+}
+
+#resources {
+    grid-area: resources;
+}
+
+/*  INITIATIVES.HTML */
+
+#initatives {
+    background-color: var(--georgianBlue);
+    color: white;
+}
+#initiativesPage h2 {
+    color: white;
+    background-color: var(--georgianBlue);
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+#initiativesPage h3 {
+    font-weight: bold;
+}
+
+#initiativesPage h4 {
+    color: white;
+    background-color: var(--georgianGreen);
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+#initiativesPart1 h3 {
+    color: var(--georgianBlue)
+}
+#initiativesPart2 {
+    background-color: var(--georgianGreen);
+}
+#initiativesPart2 h3 {
+    color: white;
+}
+
+#initiativesPage #initiativesPart2Text {
+    color: var(--georgianBlue);
+    background-color: white;
+    padding: 1rem;
+    height: max-content;
+}
+
+/* Emissions Map */
+
+#emissionsMap {
+    width: 100%;
+    height: 60%;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: var(--georgianBlue);
+}
+
+footer div.text-center {
+    color: white;
+    margin: 0.5rem
+}
+
+footer div.badge{
+    list-style-position: outside;
+    background-color: var(--georgianTeal);
+    font-weight: bold;
+    color: white;
+    margin: 0.5rem;
+}

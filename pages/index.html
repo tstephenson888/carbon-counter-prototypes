@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype - Index page</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- Handlebars -->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+        <!-- Personal Styling -->
+    <link rel="stylesheet" href="../rsc/style.css">
+
+</head>
+
+
+<body class="container">
+    <header>
+        <!-- Header -->
+        <img src="../rsc/Georgian_College_logo.svg" alt="Georgian college logo" class="logo m-3">
+        <nav>
+            <a href="#" class="badge rounded-pill">Initiatives</a>
+            <a href="#" class="badge rounded-pill">Emissions Map</a>
+            <a href="#" class="badge rounded-pill">Resources</a>
+            <a href="#" class="badge rounded-pill">Blog</a>
+            <a href="#" class="badge rounded-pill">About</a>
+            <a href="#" class="badge rounded-pill">Contact Us</a>
+        </nav>
+    </header>
+    
+    <main class="d-lg-grid grid-container">
+        <div id="welcome" class="grid-item">
+            <h3>Welcome to Georgian's</h3>
+            <h2>Food Emissions Dashboard</h2>
+        </div>
+        <div id="change" class="grid-item">
+            <h2>Start Making a Change</h2>
+            <ul>
+                <li><span class="changeNum">1</span> Learn about food literacy and sustainability</li>
+                <li><span class="changeNum">2</span>Access to educational resources and materials on food-related climate action</li>
+                <li><span class="changeNum">3</span>Apply your new knowledge</li>
+                <li><span class="changeNum">4</span>Spread awareness and join in community events.</li>
+            </ul>
+            <img src="" alt="Georgian College Centre for Changemaking and Social Innovation">
+        </div>
+        <button class="portal-button grid-item" id='map'>
+            <h2>Emissions Map</h2>
+        </button>
+        <button class="portal-button grid-item" id="data">
+            <h2>Data</h2>
+        </button>
+        <button class="portal-button grid-item" id="initiatives">
+            <h2 class="align-middle">Initiatives</h2>
+        </button>
+        <button class="portal-button grid-item" id="stories">
+            <h2>Stories</h2>
+        </button>
+        <button class="portal-button grid-item" id="resources">
+            <h2>Resources</h2>
+        </button>
+        
+    </main>
+    <footer class="sticky-bottom">
+        <div class="badge rounded-pill">Twitter</div>
+        <div class="badge rounded-pill">LinkedIn</div>
+        <div class="badge rounded-pill">Facebook</div>
+        <div class="text-center">(C) 2023 Georigan College, all rights reserved. Website design by Scavengers Design Team.</div>
+    </footer>
+    
+</body>
+
+</html>
